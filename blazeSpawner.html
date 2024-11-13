@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Blaze Spawner</title>
+  </head>
+  <body>
+    <audio autoplay>
+      <source src="Audio/mcbgm.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <div class="column green">
+      <img src="Images/blazespawnerleft.png" class="sideImg" />
+    </div>
+    <div class="column red middleImg">
+      <img
+        src="Images/blaze.gif"
+        class="blaze2"
+        id="blaze2"
+        onclick="killBlaze2()"
+      />
+      <img
+        src="Images/blaze.gif"
+        class="blaze"
+        id="blaze"
+        onclick="killBlaze()"
+      />
+      <img
+        src="Images/blazespawnermiddle.png"
+        class="sideImg"
+        id="blazeMiddleImg"
+      />
+    </div>
+    <div class="column gold">
+      <img src="Images/blazespawnerright.png" class="sideImg" />
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>

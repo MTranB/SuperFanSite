@@ -1,0 +1,218 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.column {
+  width: calc(100% / 3);
+  height: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: greenyellow;
+}
+.gold {
+  background-color: gold;
+}
+.black {
+  background-color: black;
+}
+.white {
+  background-color: white;
+}
+.purple {
+  background-color: purple;
+}
+.row {
+  height: calc(100% / 3);
+  width: 100%;
+  display: flex;
+}
+.sideImg {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.middleImg {
+  position: relative;
+  margin: 0;
+}
+.singleplayerButton {
+  position: absolute;
+  top: 34%;
+  right: 19%;
+  width: 67%;
+  height: 3.5%;
+  margin: 0;
+}
+.noPortalButton {
+  position: absolute;
+  top: 15%;
+  right: 5%;
+  width: 90%;
+  height: 50%;
+}
+.netherSpawnButton1 {
+  position: absolute;
+  top: 10%;
+  right: 30%;
+  width: 40%;
+  height: 50%;
+  opacity: 0;
+}
+.netherSpawnButton2 {
+  position: absolute;
+  top: 35%;
+  right: 3%;
+  width: 30%;
+  height: 20%;
+  opacity: 0;
+}
+.blaze {
+  position: absolute;
+  top: 25%;
+  right: 3%;
+  width: 40%;
+  height: 40%;
+}
+.blaze2 {
+  position: absolute;
+  top: 30%;
+  right: 80%;
+  width: 50%;
+  height: 50%;
+}
+.blazeRod {
+  position: absolute;
+  top: 60%;
+  right: 3%;
+  width: 8%;
+  height: 8%;
+}
+.blazeRod2 {
+  position: absolute;
+  top: 70%;
+  right: 80%;
+  width: 10%;
+  height: 10%;
+}
+.disappear {
+  opacity: 0;
+}
+.corridorButtonLeft {
+  position: absolute;
+  top: 30%;
+  right: 85%;
+  width: 60%;
+  height: 35%;
+  opacity: 0;
+}
+.corridorButtonForwards {
+  position: absolute;
+  top: 40%;
+  right: 30%;
+  width: 35%;
+  height: 20%;
+  opacity: 0;
+}
+.chestButton {
+  position: absolute;
+  top: 52%;
+  right: 57%;
+  width: 20%;
+  height: 10%;
+}
+.emptySlotButton {
+  position: absolute;
+  top: 42%;
+  right: 64.4%;
+  width: 5.1%;
+  height: 2.5%;
+}
+.emptySlotButton2 {
+  position: absolute;
+  top: 42%;
+  right: 36.3%;
+  width: 5.1%;
+  height: 2.5%;
+}
+.emptySlotButton3 {
+  position: absolute;
+  top: 39.1%;
+  right: 41.9%;
+  width: 5.1%;
+  height: 2.5%;
+}
+.emptySlotButton4 {
+  position: absolute;
+  top: 39.1%;
+  right: 53.2%;
+  width: 5.1%;
+  height: 2.5%;
+}
+.gold1 {
+  position: absolute;
+  top: 60%;
+  right: 70%;
+  width: 5.1%;
+  height: 2.5%;
+}
+.gold2 {
+  position: absolute;
+  top: 60%;
+  right: 70%;
+  width: 5.1%;
+  height: 2.5%;
+}
+.gold3 {
+  position: absolute;
+  top: 60%;
+  right: 70%;
+  width: 5.1%;
+  height: 2.5%;
+}
+.horseArmor {
+  position: absolute;
+  top: 60%;
+  right: 64.3%;
+  width: 5.1%;
+  height: 2.5%;
+}
+.netherWartButton {
+  position: absolute;
+  top: 40%;
+  right: 20%;
+  width: 60%;
+  height: 60%;
+  opacity: 0;
+}
+.move {
+  right: 200%;
+}
+.clickable {
+  filter:;
+}
+.clickable:hover {
+  cursor: pointer;
+  filter: brightness(85%) drop-shadow(1px 3px 2px);
+}
+/* add satisfaction to click */
+.clickable:active {
+  filter: drop-shadow(0px 0px 3px);
+  transform: scale(0.98);
+}
+@media only screen and (max-width: 800px) {
+  body {
+    display: block;
+  }
+  .column {
+    width: 100%;
+  }
+}
